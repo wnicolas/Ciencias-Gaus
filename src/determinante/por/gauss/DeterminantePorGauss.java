@@ -1,5 +1,7 @@
 package determinante.por.gauss;
 
+//William Nicolas
+
 public class DeterminantePorGauss {
 
     public static double[][] generarMatriz(int n) {
@@ -19,6 +21,9 @@ public class DeterminantePorGauss {
         int i, j, k, aux = 0, dimension = 0, c,multi=1;
         double temp = 0;
         dimension = d;
+        
+        int pr=0;
+        
         boolean sePuede = true;
 
         for (i = 0; i < a.length - 1; i++) {
